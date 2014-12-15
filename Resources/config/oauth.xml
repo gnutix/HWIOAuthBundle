@@ -127,6 +127,7 @@
             <argument type="service" id="security.http_utils" />
             <argument type="collection" /><!-- options -->
             <argument /><!-- name -->
+            <argument type="service" id="hwi_oauth.authentication.token_factory.oauth"/>
         </service>
 
         <service id="hwi_oauth.abstract_resource_owner.oauth2" class="%hwi_oauth.resource_owner.oauth2.class%"
